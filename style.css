@@ -1,0 +1,73 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+html, body{
+    min-height: 100%;
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+}
+
+.result{
+    display: flex ;
+    justify-content: flex-end ;
+    align-items: flex-end;
+    color: white;
+    height: 35%;
+}
+
+.result span{
+    justify-self: flex-end;
+    font-size: 244px;
+    margin-right: 60px ;
+}
+
+.button {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    /* This sets the border radius to 50% to create a round shape */
+    min-height: 100vh;
+    padding: 2rem;
+    /* Adjust the width to your desired size */
+    grid-template-columns: 1fr 1fr 1fr 1fr 
+     /* Adjust the height to your desired size */
+}
+
+.item{
+    font-size: 3rem;
+    text-align: center;
+    border-radius: 50%;
+    padding: 3rem;
+    margin: 2rem;
+    font-size: 4rem;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    cursor: pointer;
+    border: none;
+    color: white;
+    
+}
+
+.zero {
+   display: grid;
+   border-radius: 135px;
+   grid-column: span 2; /* This sets the element to span 2 columns */
+}
+
+.orange{
+    background-color: #FF9f0a;
+}
+
+.number{
+    background-color: #343434;
+}
+
+.plus-minus,.percentage,.equal,.ac,.point{
+    background-color: #A5a5a5;
+
+}
